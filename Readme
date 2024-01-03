@@ -1,0 +1,9 @@
+# 基于python的图像MPSK传输系统仿真
+## 文件介绍和使用方法
+ tttest.py是主控程序
+ <br /> resource_rc.py是GUI界面调用资源程序
+ <br /> resource.qrc和tttest.ui是qt designer的工程文件
+## 使用图片说明
+car.jpg, R-C.jpg, R-Csmall.jpg, 普朗克jpg是预设的传输图片
+<br /> car分辨率最小，传输运算时间短
+# ！！！不要对tttest.ui文件重构tttest.py,会丢失所有代码，除非你知道你在做什么
